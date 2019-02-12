@@ -29,7 +29,7 @@ Boilerplate for a static site repo that's deployable to S3
     }
     ```
 1. set the property of that S3 bucket to serve static websites
-1. rename the file in `.circle/` from `config.yml.example` to `config.yml`
+1. rename the file in `.circleci/` from `config.yml.example` to `config.yml`
 1. remove these lines from `config.yml` if not using Cloudfront:
     ```
      - run:
